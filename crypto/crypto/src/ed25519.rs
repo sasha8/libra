@@ -28,6 +28,8 @@
 //! ```
 //! **Note**: The above example generates a private key using a private function intended only for
 //! testing purposes. Production code should find an alternate means for secure key generation.
+// --REVIEW: Can we add text saying *why* this shouldn't be used for production code and
+//      instead what should be used?
 use crate::{
     hash::{CryptoHash, CryptoHasher},
     traits::*,
