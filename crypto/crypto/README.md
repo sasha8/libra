@@ -34,3 +34,5 @@ Libra makes use of several cryptographic algorithms:
 ```
 
 Note: This crate historically had support for BLS12381, ECVRF, and SlIP-0010, though were removed due to lack of use. The last git revision before there removal is 00301524.
+
+REVIEW: Can we move this readme up a directory and also describe the derived folder?
